@@ -1,0 +1,31 @@
+title: pool 0AAAA
+#author:
+#  name: pool 0AAAA
+#  email: rieger@statistik.tu-dortmund.de
+#description: 0AAAA pool's official website
+
+google_analytics: G-LKW3CE9M5S
+
+plugins:
+  - jekyll-remote-theme
+
+remote_theme: jekyll/minima
+
+minima:
+#  date_format: "%Y-%m-%d"
+  skin: dark
+  social_links:
+    - { platform: telegram, user_url: "https://t.me/pool0aaaa" }
+    - { platform: threads, user_url: "https://www.threads.net/pool0aaaa" }
+
+#include:
+#    - _pages
+
+exclude:
+    - .gitignore
+    - Gemfile
+    - Gemfile.lock
+
+header_pages:
+  - about.md
+  - portfolio.md
